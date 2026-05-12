@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.5.0"
+  version: "1.6.0"
   python_min: "3.10"
 
 package:
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spectraxgk/spectraxgk-${{ version }}.tar.gz
-  sha256: a155d528a6d6baf1926a26b64ed9dac534b9a102c653a9ddb1fcde23623908dd
+  sha256: e49e4dc9913f899cb15f294c9bf29c22a8d2d86442f686a1e4c72188b18793f1
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
