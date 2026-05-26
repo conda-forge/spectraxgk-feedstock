@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.6.1"
+  version: "1.6.2"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spectraxgk/spectraxgk-${{ version }}.tar.gz
-  sha256: b5f4b55133b5b962480d959855da51f1e987e6cd8f4c4a76066988706443af39
+  sha256: 9286604520dda877e51fa5a266d8b94b974c4db82b5e8fa979560c25097c36b0
 
 build:
   number: 0
