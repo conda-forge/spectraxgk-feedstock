@@ -5,7 +5,7 @@
 
 [workspace]
 name = "spectraxgk-feedstock"
-version = "3.62.0"  # conda-smithy version used to generate this file
+version = "2026.5.29"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/spectraxgk-feedstock"
 authors = ["@conda-forge/spectraxgk"]
 channels = ["conda-forge"]
